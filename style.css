@@ -1,0 +1,64 @@
+/* ANIMATIONS */
+
+@keyframes bocn-collapse {
+  from {margin-bottom: 0px;}
+  to {margin-bottom: -215px;}
+}
+
+@keyframes bocn-appear {
+  from {margin-bottom: -215px;}
+  to {margin-bottom: 0px;}
+}
+/* STYLING */
+.box-container {
+  position: fixed;
+  right: 10px;
+  bottom: 0%;
+  visibility: visible;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  margin-bottom: -215px;
+}
+.box {
+  padding: 20px 10px 5px 10px;
+  background-color: #000;
+  color: #fff;
+}
+#appear {
+  margin: -20px -10px -5px -10px;
+  height: 20px;
+}
+.close-button-cnt {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+#close-button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  margin-top: 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#close-button:hover {
+  color: #e8e8e8;
+}
+/* CONTENT */
+.box-content {
+  position: absolute;
+  width: 225px;
+  height: 145px;
+  top: 50px;
+  left: 20px;
+  font-family: monospace, sans-serif;
+  font-size: 10px;
+  overflow: hidden;
+}
+.box-content:hover #box-cnt-1{
+  display: none;
+}
