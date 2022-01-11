@@ -15,5 +15,4 @@ This is the
             `~~~`    '-.____.-'        
 </pre>
 
- -- Code by ComputerDuck on GitHub -- <br>
-&nbsp;&nbsp;&nbsp;This code is free to use for everyone
+ -- Code by ComputerDuck on GitHub --
